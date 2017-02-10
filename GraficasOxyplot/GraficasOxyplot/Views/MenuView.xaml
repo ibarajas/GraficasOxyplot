@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GraficasOxyplot.Views.MenuView">
+  <StackLayout>
+    <Button HorizontalOptions="Center" WidthRequest="200" Text="Pastel" Command="{Binding PastelCommand}" />
+    <Button HorizontalOptions="Center" WidthRequest="200" Text="Barras" Command="{Binding BarrasCommand}" />
+    <Button HorizontalOptions="Center" WidthRequest="200" Text="XY" Command="{Binding XYCommand}" />
+    <Button HorizontalOptions="Center" WidthRequest="200" Text="Areas" Command="{Binding AreasCommand}" />
+  </StackLayout>
+</ContentPage>

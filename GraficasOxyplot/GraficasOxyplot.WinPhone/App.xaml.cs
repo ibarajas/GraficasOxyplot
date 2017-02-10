@@ -65,6 +65,7 @@ namespace GraficasOxyplot.WinPhone
                 rootFrame.CacheSize = 1;
 
                 Xamarin.Forms.Forms.Init(e);
+                OxyPlot.Xamarin.Forms.Platform.WP8.PlotViewRenderer.Init();
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {
